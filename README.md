@@ -13,7 +13,11 @@ For more details, see [replit.md](./replit.md).
 ## Installation
 
 1. Clone this repo.
-2. Install dependencies:
+2. Copy `.env.example` to `.env` and fill in the required values such as `DATABASE_URL`:
+   ```bash
+   cp .env.example .env
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
